@@ -15,14 +15,12 @@
         <asp:Label ID="lblCount" runat="server" ForeColor="Navy" Font-Bold="true" Font-Size="Large" />
         <br />
         <asp:GridView ID="gvResults" Width="160px" runat="server" CellPadding="2" GridLines="None"
-            ForeColor="Black" Font-Names="Arial" Font-Size="11pt" AllowPaging="true" PageSize="30"  
-            OnPageIndexChanging="gvResults_PageIndexChanging" RowStyle-Font-Names="Consolas" >
-            <HeaderStyle ForeColor="White" BackColor="White"  />
+            ForeColor="Black" Font-Names="Arial" Font-Size="11pt" AllowPaging="true" PageSize="30"
+            OnPageIndexChanging="gvResults_PageIndexChanging" RowStyle-Font-Names="Consolas">
+            <HeaderStyle ForeColor="White" BackColor="White" />
             <RowStyle BackColor="LightGray" ForeColor="Black" HorizontalAlign="Right" />
             <AlternatingRowStyle BackColor="White" ForeColor="Black" HorizontalAlign="Right" />
             <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
         </asp:GridView>
     </div>
-
-
 </div>
